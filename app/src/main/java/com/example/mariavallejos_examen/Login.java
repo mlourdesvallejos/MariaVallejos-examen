@@ -23,11 +23,9 @@ public class Login extends AppCompatActivity {
 
         String usuario = etUser.getText().toString();
         String password = etPass.getText().toString();
-        //String datouser = "estudiante2020";
-        //String datopass = "uisrael2020";
-        String datouser = "lu";
-        String datopass = "2020";
-
+        String datouser = "estudiante2020";
+        String datopass = "uisrael2020";
+        
 
         if (usuario.equals(datouser) && password.equals(datopass)) {
 
