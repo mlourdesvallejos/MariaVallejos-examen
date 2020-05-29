@@ -25,14 +25,14 @@ public class Login extends AppCompatActivity {
         String password = etPass.getText().toString();
         String datouser = "estudiante2020";
         String datopass = "uisrael2020";
-        
+
 
         if (usuario.equals(datouser) && password.equals(datopass)) {
 
             Intent intentLog = new Intent(Login.this, Registro.class);
             intentLog.putExtra("usuarioenviado", usuario);
             startActivity(intentLog);
-            Toast.makeText(getApplicationContext(), "Usuario" + etUser.getText() + "se ha conectado", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Usuario Conectado: " + etUser.getText() , Toast.LENGTH_LONG).show();
 
         }
         else
